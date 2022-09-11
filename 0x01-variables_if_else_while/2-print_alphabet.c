@@ -1,11 +1,10 @@
 #include <stdio.h>
 
+
 /**
- * main - prints the alphabets in lowercase
+ * main - prints the last digit of the number stored
  *
- * Description: print all alphabet in lowercase
- * this function uses putchar twice
- * return: 0
+ * Return: Always 0
  */
 int main(void)
 {
