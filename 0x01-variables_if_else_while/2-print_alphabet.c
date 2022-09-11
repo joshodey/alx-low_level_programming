@@ -4,7 +4,8 @@
 /**
  * main - prints the last digit of the number stored
  *
- * Return: Always 0
+ *Description: print the last letter of the integer
+ * Return: 0
  */
 int main(void)
 {

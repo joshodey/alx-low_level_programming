@@ -5,7 +5,7 @@
  *
  * Description: print alphabets in lowercase
  * with exceptions of 'q' and 'e'
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
