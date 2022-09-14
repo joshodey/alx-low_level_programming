@@ -6,13 +6,19 @@
  * Description: prints all alphabets in lowercase
  * Return: 0
  */
-int main(void)
+void print_alphabet()
 {
-	char print_alphabet;
-		for (print_alphabet = 'a' ; print_alphabet <= 'z' ; print_alphabet++)
+	char l;
+		for (l = 'a' ; l <= 'z' ; l++)
 		{
-			putchar(print_alphabet);
+			putchar(l);
 		}
 		putchar('\n');
-		return (0);
 }
+
+int main(void) 
+{
+	print_alphabet(l);
+	return (0);
+}
+
