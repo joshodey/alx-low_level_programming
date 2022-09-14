@@ -6,7 +6,7 @@
  * Description: prints all alphabets in lowercase
  * Return: 0
  */
-void print_alphabet()
+void print_alphabet(void)
 {
 	char l;
 		for (l = 'a' ; l <= 'z' ; l++)
@@ -14,11 +14,5 @@ void print_alphabet()
 			putchar(l);
 		}
 		putchar('\n');
+		return (0);
 }
-
-int main(void) 
-{
-	print_alphabet(l);
-	return (0);
-}
-
