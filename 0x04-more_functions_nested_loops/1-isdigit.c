@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - identify digits
+ * _isdigit - identify digits
  *
  * Description: Identify digit in text
+ * @c: is a funtion
  * Return: 0
  */
 int _isdigit(int c)
